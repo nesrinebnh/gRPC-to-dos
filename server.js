@@ -17,8 +17,15 @@ server.addService(todoPackage.Todo.service,
     });
 server.start();
 
+const todos = []
+
 function createTodo(call, callback){
-    console.log(call);
+    const  todoItem = {
+        "id": todos.length + 1,
+        "text": call.request.text
+    }
+    todos.push(todoItem)
+    callback(null, todoItem);
 }
 
 function readTodos(call, callback){
