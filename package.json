@@ -1,0 +1,20 @@
+{
+  "name": "gRPC-to-dos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nesrinebnh/gRPC-to-dos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nesrinebnh/gRPC-to-dos/issues"
+  },
+  "homepage": "https://github.com/nesrinebnh/gRPC-to-dos#readme"
+}
