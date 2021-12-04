@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/nesrinebnh/gRPC-to-dos/issues"
   },
-  "homepage": "https://github.com/nesrinebnh/gRPC-to-dos#readme"
+  "homepage": "https://github.com/nesrinebnh/gRPC-to-dos#readme",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.6.7",
+    "grpc": "^1.24.11"
+  }
 }
